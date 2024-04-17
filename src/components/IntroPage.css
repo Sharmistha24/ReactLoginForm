@@ -1,0 +1,151 @@
+
+
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+    
+  .card-title{
+    font: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #803691;
+    
+  }
+  .card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+ 
+.intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.intro-card {
+  width: 390px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 20px; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 60px; 
+  height: auto; 
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.custom-button-container {
+  display: flex;
+  justify-content: center;
+}
+.custom-button {
+  width: 342px; 
+  height: 56px;
+  padding: 16px, 32px, 16px, 32px;
+  gap: 4px;
+  border-radius: 200px; 
+  /* opacity: 0; */
+  background: #803691;
+  border: none; 
+  color: white; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; 
+  font-size: 14px; 
+  line-height: 20px; 
+  text-align: center;
+  cursor: pointer;  
+  align-items: center;
+}
+
+.custom-button:hover{
+  background: #803691;
+}
+.custom-button:active {
+  background: #803691;
+}
+
+.custom-button-offwhite{
+  width: 342px; 
+  height: 56px;
+  padding: 16px, 32px, 16px, 32px;
+  gap: 4px;
+  border-radius: 200px; 
+  background: #CBCBCB !important;
+  border: none; 
+  color: white; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; 
+  font-size: 14px; 
+  line-height: 20px; 
+  text-align: center;
+  cursor: pointer;  
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-icon {
+  font-size: 1.5rem; 
+}
+
+.card-header{
+  padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+    background-color: white;
+   border-bottom:none !important;
+
+}
+
+.custom-footer {
+  width: 358px; 
+  height: 148px; 
+  padding: 24px; 
+  gap: 24px; 
+  border-radius: 16px 16px 0 0;
+  background-color:#EBEBEB;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.footer-text {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+.footer-text a {
+  color:#803691;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 5px;
+}

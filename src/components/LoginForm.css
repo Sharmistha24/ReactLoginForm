@@ -1,0 +1,61 @@
+
+.password-input {
+    position: relative;
+  }
+  
+  .password-input input {
+    padding-right: 2.5rem; 
+  }
+  
+  .password-input .toggle-password-icon {
+    position: absolute;
+    top: 50%;
+    right: 0.75rem; 
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .login-header{
+    color: black!important;
+  }
+
+  .email-input {
+    position: relative;
+  }
+  
+  .info-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #803691;
+  }
+
+  .login-card-footer {
+    /* color: none; */
+    background-color: unset !important;
+    border-top: none;
+    font: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .login-card-footer a{
+    color: black;
+    text-decoration: none;
+  }
+
+  .marTB{
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+  }
+
+  .outline-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid purple; /* Purple border */
+    border-radius: 10px; /* Border radius */
+    font-size: 16px;
+  }
